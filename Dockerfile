@@ -1,4 +1,4 @@
-FROM circleci/php:7.3-jessie-node-browsers
+FROM circleci/php:7.3-stretch-node-browsers-legacy
 
 MAINTAINER Dries Schulten
 
