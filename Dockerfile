@@ -6,5 +6,5 @@ ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /
 RUN sudo apt-get install -y python-dev python-pip && \
  		sudo pip install -q awscli --upgrade && \
- 		sudo rm -rf /var/lib/apt/lists/*
-
+ 		sudo rm -rf /var/lib/apt/lists/* && \
+ 		sudo docker-php-ext-install zip pcntl
