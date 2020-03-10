@@ -1,4 +1,4 @@
-FROM circleci/php:7.3-stretch-node-browsers-legacy
+FROM circleci/php:7.3-cli-node
 
 MAINTAINER Dries Schulten
 
